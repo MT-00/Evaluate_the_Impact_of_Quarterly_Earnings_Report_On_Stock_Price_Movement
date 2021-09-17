@@ -1,0 +1,4 @@
+set title "CAAR"
+set yrange [-0.06:0.06]
+plot 'CAAR.txt' using 1:3 title 'Meet' with lines lw 4, 'CAAR.txt' using 1:2 title 'Beat' with lines lw 4, 'CAAR.txt' using 1:4 title 'Miss' with lines lw 4
+pause -1
